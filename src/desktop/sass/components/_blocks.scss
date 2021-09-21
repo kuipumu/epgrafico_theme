@@ -1,0 +1,32 @@
+/* WooCommerce */
+ul.products li.product .woocommerce-loop-product__title,
+ul.products li.product .woocommerce-loop-category__title,
+ul.products li.product .wc-block-grid__product-title,
+ul.products li.product .wc-block-grid__product-title > a:not(.has-font-size),
+ul.products .wc-block-grid__product .woocommerce-loop-product__title,
+ul.products .wc-block-grid__product .woocommerce-loop-category__title,
+ul.products .wc-block-grid__product .wc-block-grid__product-title,
+ul.products .wc-block-grid__product .wc-block-grid__product-title > a:not(.has-font-size),
+.wc-block-grid__products li.product .woocommerce-loop-product__title,
+.wc-block-grid__products li.product .woocommerce-loop-category__title,
+.wc-block-grid__products li.product .wc-block-grid__product-title,
+.wc-block-grid__products li.product .wc-block-grid__product-title > a:not(.has-font-size),
+.wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title,
+.wc-block-grid__products .wc-block-grid__product .woocommerce-loop-category__title,
+.wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title,
+.wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title > a:not(.has-font-size) {
+    font-size: 1.618em;
+}
+
+.edit-post-visual-editor .editor-block-list__block .wc-block-grid__product-title,
+.editor-styles-wrapper .wc-block-grid__product-title,
+.wc-block-grid__product-title {
+    line-height: normal;
+}
+
+.theme-twentytwenty .wc-block-grid.has-4-columns:not(.alignwide):not(.alignfull) .wc-block-grid__product,
+.theme-twentytwenty .wc-block-grid.has-5-columns.alignfull .wc-block-grid__product,
+.wc-block-grid.has-4-columns:not(.alignwide):not(.alignfull) .wc-block-grid__product,
+.wc-block-grid.has-5-columns.alignfull .wc-block-grid__product {
+    font-size: 100%;
+}

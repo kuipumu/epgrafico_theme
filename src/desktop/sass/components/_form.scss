@@ -1,0 +1,32 @@
+/* Input */
+.input-text,
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+textarea {
+    background-color: $white;
+    color: $text-color;
+    box-shadow: 0 0 0;
+    outline: 1px solid #f0f0f0;
+}
+
+.input-text:focus,
+input[type='email']:focus,
+input[type='number']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='tel']:focus,
+input[type='text']:focus,
+input[type='url']:focus,
+textarea:focus {
+    background-color: #f9f9f9;
+    outline: 1px solid $text-color !important;
+}
+
+select {
+    color: $text-color;
+}

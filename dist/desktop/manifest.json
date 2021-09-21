@@ -1,0 +1,32 @@
+{
+  "main.css": "desktop/main-5a55b43e.css",
+  "main.css.map": "desktop/main-5a55b43e.css.map",
+  "main.js": "desktop/main-76620b1b.js",
+  "main.js.map": "desktop/main-76620b1b.js.map",
+  "runtime.js": "desktop/runtime-b65dc589.js",
+  "runtime.js.map": "desktop/runtime-b65dc589.js.map",
+  "vendors~main.js": "desktop/vendors~main-a568b5f8.js",
+  "vendors~main.js.map": "desktop/vendors~main-a568b5f8.js.map",
+  "wpackioEp": {
+    "main": {
+      "assets": {
+        "js": [
+          "desktop/runtime-b65dc589.js",
+          "desktop/vendors~main-a568b5f8.js",
+          "desktop/main-76620b1b.js"
+        ],
+        "js.map": [
+          "desktop/runtime-b65dc589.js.map",
+          "desktop/vendors~main-a568b5f8.js.map",
+          "desktop/main-76620b1b.js.map"
+        ],
+        "css": [
+          "desktop/main-5a55b43e.css"
+        ],
+        "css.map": [
+          "desktop/main-5a55b43e.css.map"
+        ]
+      }
+    }
+  }
+}

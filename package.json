@@ -1,0 +1,29 @@
+{
+  "name": "epgrafico",
+  "version": "1.0.0",
+  "description": "Editorial PoderGráfico Wordpress Theme",
+  "license": "GPL-2.0-or-later",
+  "author": "César Montilla <kuipumu@cryptolab.net> (http://github.com/kuipumu)",
+  "homepage": "https://editorialpodergrafico.com",
+  "devDependencies": {
+    "@wpackio/scripts": "^6.2.0",
+    "postcss": "^8.3.2",
+    "sass": "^1.34.1",
+    "wp-pot-cli": "^1.5.0"
+  },
+  "scripts": {
+    "translate": "wp-pot --src '**/**/**/*.php' --dest-file 'languages/epgrafico.pot' --package 'Epgrafico' --domain 'epgrafico' --last-translator 'César Montilla <kuipumu@cryptolab.net>' --team 'Epgrafico <info@epgrafico.com>' --bug-report 'https://aliolam.com'",
+    "bootstrap": "wpackio-scripts bootstrap",
+    "build": "wpackio-scripts build",
+    "start": "wpackio-scripts start",
+    "archive": "wpackio-scripts pack"
+  },
+  "dependencies": {
+    "@wpackio/entrypoint": "^6.3.0",
+    "jquery": "^3.6.0",
+    "masonry-layout": "^4.2.2",
+    "pace-js": "^1.2.4",
+    "stylelint": "^13.13.1",
+    "vanilla-back-to-top": "^7.2.1"
+  }
+}

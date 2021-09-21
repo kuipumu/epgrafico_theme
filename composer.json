@@ -1,0 +1,39 @@
+{
+  "name":"kuipumu/epgrafico",
+  "description":"Editorial PoderGráfico Wordpress Theme",
+  "version": "1.0.0",
+  "homepage": "https://podergrafico.com",
+  "readme": "README.md",
+  "license": [
+    "GPL-2.0-or-later",
+    "MIT"
+  ],
+  "authors": [
+      {
+          "name": "César Montilla",
+          "email": "kuipumu@cryptolab.net",
+          "homepage": "https://github.com/kuipumu",
+          "role": "Developer"
+      }
+  ],
+  "support": {
+      "email": "kuipumu@cryptolab.net"
+  },
+  "repositories":[
+      {
+          "type":"package",
+          "package":{
+              "name":"swashata/wpackio-enqueue",
+              "version":"master",
+              "source":{
+                  "url":"git://github.com/swashata/wpackio-enqueue.git",
+                  "type":"git",
+                  "reference":"master"
+              }
+          }
+      }
+  ],
+  "require": {
+      "wpackio/enqueue": "^3.2"
+  }
+}

@@ -1,0 +1,69 @@
+/* General */
+/* Site Header */
+.site-header {
+    .site-branding a:focus {
+        outline: none !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .site-header {
+        .col-full {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .storefront-secondary-navigation.woocommerce-active {
+        .site-header {
+            .site-branding,
+            .secondary-navigation,
+            .site-search {
+                flex-grow: 1;
+                float: none;
+            }
+
+            .site-branding {
+                width: 40%;
+                margin: 0;
+                padding-bottom: 20px;
+                text-align: center;
+            }
+
+            .site-branding img.custom-logo {
+                margin: 0 auto;
+            }
+
+            .secondary-navigation {
+                width: 10%;
+                margin: 0;
+            }
+
+            .site-search {
+                width: 10%;
+                margin: 0;
+            }
+        }
+    }
+
+    .primary-navigation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .woocommerce-active .site-header .main-navigation {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .secondary-navigation .menu {
+        font-size: 100%;
+    }
+}
+
+/* Breadcrumb */
+.storefront-breadcrumb {
+    margin: 0;
+}
